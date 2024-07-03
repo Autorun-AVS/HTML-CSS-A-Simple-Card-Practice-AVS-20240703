@@ -1,0 +1,96 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+* {
+  /* margin: 0;
+  padding: 0;
+  outline: 0; */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #ccbc8f;
+  font-family: sans-serif;
+
+  /* overflow: hidden to prevent scrolling -avs  */
+  overflow: hidden;
+}
+
+.container-avs {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+
+x-card {
+  max-width: 280px;
+  background: #383838;
+  padding: 1em;
+  border-radius: 0.4rem;
+}
+
+.image {
+  width: 100%;
+  border-radius: 0.4rem;
+}
+
+.title {
+  color: snow;
+  font-size: 1.2rem;
+  /* margin: 1em 0; */
+  line-height: 120%;
+}
+
+.description {
+  color: #888897;
+  font-size: 0.8rem;
+  margin-bottom: 1em;
+}
+
+.link {
+  width: 1.2rem;
+  margin: 1em 0;
+  filter: invert();
+}
+
+.developerRight {
+  display: none;
+}
+
+x-card,
+x-layout,
+x-wrapper,
+x-container {
+  display: block;
+}
+
+
+@media only screen and (min-width: 768px) {
+  x-card {
+    max-width: 680px;
+
+    /* align-items: center; for vertically center the content -avs */
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    width: 9rem;
+    margin-left: 1em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+
+  html {
+    font-size: 20px;
+  }
+}
+
+
+
+/* #developerRight ! Hi there. This project is completely open for you. You can study it or use in your project. But I will appreciate if you at least give me the credit. Thanks, take care and stay safe. https://github.com/Autorun-AVS  */
