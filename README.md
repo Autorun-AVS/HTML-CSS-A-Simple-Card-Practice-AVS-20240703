@@ -13,7 +13,7 @@ See the LICENSE file for more details.
 
 Screenshots:
 
-Screenshot 1
+Screenshot 1 - Mobile
 ![Project screenshot 1](screenshots/A-Simple-Card-Practice-AVS%20(1).png)
-Screenshot 2
+Screenshot 2 - Desktop
 ![Project screenshots 2](screenshots/A-Simple-Card-Practice-AVS%20(2).png)
